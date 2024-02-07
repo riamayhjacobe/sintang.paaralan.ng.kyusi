@@ -1,0 +1,416 @@
+style.css
+style.css
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+	background-color: rgb(60, 0, 8);
+	background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: bordex-box;
+    position: relative;
+}
+
+.navbar {
+	width: 100%;
+	height: 15vh;
+	margin: auto;
+	display: flex;
+	align-items: center;
+
+}
+
+.logo {
+	width: 200px;
+	cursor: pointer;
+	padding-top: 50px;
+	margin-right: 450px;
+	margin-left: -50px;
+}
+
+.name {
+	width: 150px;
+	cursor: pointer;
+	padding-top: 100px;
+	margin-right: -1200px;
+}
+
+nav {
+	flex: 1;
+	padding-left: 70px;
+}
+
+nav ul li {
+	display: inline-block;
+	list-style: none;
+	margin: 0px 20px;
+	padding-top: 50px;
+	
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 15px;
+	border: 2px  solid #800000;
+	width: 200px;
+	transition: 0.6s ease;
+	transition: 500ms;
+}
+
+nav ul li a:hover{
+	background-color: #fff;
+	color: #FFD700;
+}
+
+.content h1 {
+	font-size: 80px;
+	font-weight: 100;
+	font-style: normal;
+	margin-top: 5px;
+	margin-bottom: 15px;
+	color: #D4AF37;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #800000;
+	text-shadow: 5px 2px #000;
+
+}
+
+.content h2 {
+	font-size: 54px;
+	font-weight: 100;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	color: #FFD700;
+	-webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #800000;
+	text-shadow: 4px 2px #000;
+}
+
+.content h3 {
+	font-size: 40px;
+	font-weight: 100;
+	font-style: normal;
+	margin-bottom: 5px;
+	margin-left: 5px;
+	color: orange;
+	-webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #800000;
+	text-shadow: 2px 2px #000;
+}
+
+.content p {
+	font-size: 20px;
+	font-weight: 100;
+	margin-top: 25px;
+	margin-bottom: 15px;
+	padding-left: 10px;
+	color: #fff;
+	text-shadow: 2px 2px #000;
+}
+
+.content {
+	margin-left: 5%;
+	margin-top: 15%;
+	text-align: center;
+}
+
+
+
+
+/*------- about ------*/
+
+.about {
+	width: 100%;
+	margin: auto;
+	text-align:center;
+	padding-top: 50px;
+	padding-bottom: 100px;
+	background-color: #800000;
+}
+
+.about h1{
+	font-size: 36px;
+	font-weight: 600;
+	font-style: italic;
+	color: #800000;
+	-webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #FFD700;
+	text-shadow: 2px 2px #000;
+	
+}
+
+.about p {
+	color: #fff;
+	font-size: 14px;
+	font-weight: 200;
+	line-height: 35px;
+	padding: 20px;
+	font-style: oblique;
+}
+
+/* -------- mission ------*/
+
+.mission {
+	width: 100%;
+	margin: auto;
+	text-align:center;
+	padding-top: 40px;
+	padding-bottom: 350px;
+	background-color:#800000;
+}
+
+.mission h1{
+	font-size: 36px;
+	font-weight: bold;
+	color: #ac2020;
+	-webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #FFD700;
+	font-style: italic;
+	text-shadow: 2px 2px #000;
+}
+
+.mission h2{
+	font-size: 30px;
+	font-weight: bold;
+	color: #ac2020;
+	-webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #FFD700;
+	font-style: italic;
+	text-shadow: 2px 2px #000;
+}
+
+.mission h3{
+	font-size: 15px;
+	font-weight: bold;
+	color: #800000;
+	font-style: italic;
+	padding-top: 20px;
+}
+
+.mission p {
+	color: #800000;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 22px;
+	padding: 5px;
+	font-style: oblique;
+}
+
+.row {
+	margin-top: 5%;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.mis-col {
+	flex-basis: 35%;
+	background: rgb(252, 252, 249);
+	border-radius: 15px;
+	margin-bottom: 0%;
+	padding: 100px 52px;
+	box-sizing: border-box;
+	transition: 0.5s;
+	border: 20px 0px solid;
+	border-style: solid;
+	border-color: #FFD700;
+}
+
+/*------- course ------*/
+
+.course {
+	width: 100%;
+	margin: auto;
+	text-align:center;
+	padding-top: 25px;
+	padding-bottom: 50px;
+	background-color: #800000;
+}
+
+.course h2{
+	font-size: 36px;
+	font-weight: bold;
+	color: #800000;
+	-webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #FFD700;
+	font-style: italic;
+	text-shadow: 2px 2px #800000;
+}
+
+.course h3{
+	font-size: 20px;
+	font-weight: 600;
+	font-style: italic;
+	text-shadow: 2px 2px #800000;
+}
+
+.course p {
+	color: #fff;
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 35px;
+	padding: 5px;
+	font-style: oblique;
+}
+
+.rows {
+	margin-top: 2%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.course-col {
+	flex-basis: 100%;
+	background: rgb(139, 54, 54);
+	border-radius: 15px;
+	margin-bottom: 0%;
+	padding: 20px 12px;
+	box-sizing: border-box;
+	transition: 0.5s;
+	border: 20px 0px solid;
+	border-style: solid;
+	border-color: #FFD700;
+}
+
+.course h3 {
+	text-align: center;
+	font-weight: 600;
+	margin: 10px 0;
+	color: #FFD700;
+}
+
+.course p.para {
+	color: #FFD700;
+}
+
+
+.course-col:hover {
+	box-shadow: 0 0 20px 0px (128,0,0,0.2);
+}
+
+.course nav {
+	flex: 1;
+	padding-left: 50px;
+}
+
+.course nav ul li {
+	display: inline-block;
+	list-style: none;
+	margin: 0px 20px;
+	padding-top: 10px;
+}
+
+.course nav ul li a {
+	text-decoration: none;
+	color: lightcoral;
+	padding: 10px 20px;
+	border: 2px  solid #800000;
+	width: 300px;
+	transition: 0.6s ease;
+}
+
+.course nav ul li a:hover{
+	background-color: #800000;
+	color: #FFD700;
+}
+
+
+/*------- help ------*/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.containers {
+  max-width: 1170px;
+  margin: auto;
+}
+
+.rowss {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+ul {
+	list-style: none;
+}
+
+.footer {
+	background-color: rgb(139, 54, 54);
+	padding: 70px 0;
+}
+
+.footer-col {
+	width: 20%;
+	padding: 0 15px;
+}
+
+
+.footer-col h4{
+	font-size: 18px;
+	font-weight: 600;
+	font-style: oblique;
+	color: #800000;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+	font-weight: 500;
+	background-color: yellow;
+	border: solid;
+	border-color: #fff;
+	text-align: center;
+}
+
+.footer-col h4: : before {
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: -10px;
+	background-color: yellow;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+
+.footer-col ul li:not(:last-child) {
+	margin-bottom: 10px;
+
+}
+
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #fff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+	padding-left: 10px;
+}
+
+.footer-col ul li a:hover {
+	color: #fff;
+	padding-left: 10px;
+}
+
+.social-links img{
+	max-width: 20%;
+	height: auto;
+	padding-left: 15px;
+	text-align: center;
+}
+
+.contact {
+   padding-top: 55px;
+   text-align: center;
+   color: #fff;
+}
+ 
